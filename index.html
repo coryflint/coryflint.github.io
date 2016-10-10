@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width">
 <title>Cory Flint, Design at Brothers Flint.</title>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
@@ -82,7 +83,9 @@ p.Avenir {
 
 .game {
   width: 100%;
-  height: 100vh;
+  /* setting height to 1px before min-height fixes bug in Chrome */
+  height: 1px;
+  min-height: 100vh;
 }
 
 .game-ta {
@@ -110,20 +113,6 @@ p.Avenir {
   visibility: hidden;
   width: 50%;
   height: 100%;
-}
-
-@media (max-width: 320px) {
-
-.left {
-  display:block;
-  width: 100%;
-}
-
-.right {
-  display:block;
-  width: 100%;
-}
-
 }
 
 .left-content {
@@ -177,10 +166,10 @@ p.Avenir {
 .right {
   display: inline-block;
   width: 50%;
+  height: 100%;
 }
 
 .right-content {
-  float: left;
   width: 70%;
   margin-left: 10%;
   text-align: left;
@@ -193,7 +182,7 @@ p.Avenir {
 .fadeIn {
         -webkit-animation: animat_show 0.8s;
         animation: animat_show 0.8s;
-        visibility: visible !important;
+        visibility: visible;
 }
 
 @-webkit-keyframes animat_show{
@@ -263,6 +252,25 @@ p.Avenir {
 	line-height: 1.8;
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+@media (max-width: 700px) {
+	
+	.game {
+		/* Resetting height definition */
+		height: 100%;
+	}
+
+	.left {
+	  display: block;
+	  width: 100%;
+	}
+	
+	.right {
+	  display: block;
+	  width: 100%;
+	}
+
 }
 
 
