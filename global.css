@@ -467,6 +467,14 @@ p.Avenir {
   color: #2D2D2D;
 }
 
+.uiux-caption {
+  font-family: MyriadPro-Regular,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  padding-top: 10px;
+  color: #2D2D2D;
+}
+
 .portfolio {
   background-color: black;
   color: white;
