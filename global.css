@@ -148,7 +148,7 @@ p.Avenir {
 }
 
 /* Mobile menu */
-@media (max-width: 880px) {
+@media (max-width: 920px) {
 
   .navbar-logo {
     display: block;
