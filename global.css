@@ -440,6 +440,33 @@ p.Avenir {
   margin-right: 20px;
 }
 
+.uiux {
+  background-color: white;
+  color: white;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+}
+
+.uiux-title {
+  text-align: center;
+  font-size: 30px;
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+  padding-top: 50px;
+  color: #2D2D2D
+}
+
+.uiux-about {
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  font-family: MyriadPro-Regular,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-top: 40px;
+  padding-bottom: 30px;
+  color: #2D2D2D
+}
+
 .portfolio {
   background-color: black;
   color: white;
