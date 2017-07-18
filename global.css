@@ -452,7 +452,7 @@ p.Avenir {
   font-size: 30px;
   font-family: Avenir,Helvetica,Arial,sans-serif;
   padding-top: 50px;
-  color: #2D2D2D
+  color: #2D2D2D;
 }
 
 .uiux-about {
@@ -464,7 +464,7 @@ p.Avenir {
   line-height: 1.8;
   margin-top: 40px;
   padding-bottom: 30px;
-  color: #2D2D2D
+  color: #2D2D2D;
 }
 
 .portfolio {
