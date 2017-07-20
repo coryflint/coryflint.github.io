@@ -455,6 +455,15 @@ p.Avenir {
   color: #2D2D2D;
 }
 
+.uiux-header {
+  text-align: center;
+  font-size: 26px;
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #2D2D2D;
+}
+
 .uiux-about {
   text-align: center;
   margin-right: 20%;
