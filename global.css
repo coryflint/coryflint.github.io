@@ -465,7 +465,7 @@ p.Avenir {
 }
 
 .uiux-about {
-  text-align: center;
+  text-align: left;
   margin-right: 20%;
   margin-left: 20%;
   font-family: MyriadPro-Regular,Helvetica,Arial,sans-serif;
@@ -500,7 +500,7 @@ p.Avenir {
 }
 
 .portfolio-about {
-  text-align: center;
+  text-align: left;
   margin-right: 20%;
   margin-left: 20%;
   font-family: MyriadPro-Regular,Helvetica,Arial,sans-serif;
