@@ -149,7 +149,6 @@ p.Avenir {
 
 /* Mobile menu */
 @media (max-width: 840px) {
-
   .navbar-logo {
     display: block;
     margin-left: 20px;
@@ -212,6 +211,12 @@ p.Avenir {
 
 }
 
+/* .intro, .hi text line-height */
+@media (max-width: 720px) {
+  .hi {
+    line-height: 1.2;
+  }
+}
 
 
 
